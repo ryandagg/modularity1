@@ -98,7 +98,22 @@
  /* Fifth Q */
 .section0 {
 	float: left;
+	margin-right: 10px;
 }
 .section1 {
 	float: left;
+	margin-right: 10px;
+	margin-bottom: 40px;
+}
+
+.section2 {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 400px;
+}
+
+.section3 {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 40px;
 }
