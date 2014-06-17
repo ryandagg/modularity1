@@ -1,5 +1,18 @@
 /* ADD YOUR STYLES HERE */
 
-.table1 {
-	padding: 15px;
+.table1 td, th {
+	border-spacing: 15px;
+	padding: 0.5em;
+	width: 130px;
+	height: 40px;
+	font-size: 15px;
+	/*border-style: solid;*/
+}
+
+.table1 td:first-child, th:first-child {
+	width: 67px;
+}
+
+tr.separating_line {
+    border-top: 1px #CDCDCD solid; /* top border only */
 }
