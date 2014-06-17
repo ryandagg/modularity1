@@ -1,18 +1,104 @@
 /* ADD YOUR STYLES HERE */
 
-.table1 td, th {
-	border-spacing: 15px;
-	padding: 0.5em;
-	width: 130px;
-	height: 40px;
-	font-size: 15px;
-	/*border-style: solid;*/
+/* First question */
+.table1 td th {
+	padding-right: 9em;
+	padding-top: 0.75em;
+	padding-bottom: 0.75em;
+	font-size: 0.95em;
 }
 
-.table1 td:first-child, th:first-child {
+.table1 td:first-child, .table1 th:first-child {
 	width: 67px;
+	padding-left: 1em;
+	padding-right: 0.6em;
 }
 
-tr.separating_line {
-    border-top: 1px #CDCDCD solid; /* top border only */
+.top_line {
+    border-top: 1px #CFCFCF solid; 
+}
+
+
+/* Second Q */
+.bottom_line {
+	border-bottom: 1px #CFCFCF solid;
+}
+
+.stats_num {
+	font-size: 2.25em;
+	font-weight: bold;
+}
+
+.stats_word {
+	color: #CFCFCF;
+	font-size: 0.75em;
+}
+
+.pad {
+	padding: 20px;
+	text-align: center;
+}
+
+/* Third Q */
+.bar_chart div {
+	background-color: #599EDE;
+	border-radius: 3px;
+	padding: 3.0px;
+	color: white;
+	font-size: 0.9em;
+
+}
+
+.bar_chart {
+	width: 100%;
+	font-size: 1.0em;
+}
+
+.bar_chart th {
+	text-align: right;
+	padding-left: 40px;
+	width: 90px;
+}
+
+/* Forth Q */
+
+.darkbox {
+	background-color: #595959;
+	width: 750px;
+	height: 494px;
+	position: relative;
+}
+.lightbox {
+	background-color: white;
+	width: 534px;
+	height: 275px;
+	border-radius: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 20px;
+	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
+
+}
+.button {
+	background-color: #ED818A;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 122px;
+	height: 37px;
+	color: white;
+	border-radius: 4px;
+	text-align: center;	
+	padding: 10.5px;
+	margin-left: 370px;
+
+}
+
+ /* Fifth Q */
+.section0 {
+	float: left;
+}
+.section1 {
+	float: left;
 }
